@@ -1,5 +1,6 @@
 import Player from './components/Player';
-import GameBoard from './components/GameBoard';
+//import GameBoard from './components/GameBoard';
+import GameBoard1 from './components/GameBoard1';
 import { useState } from 'react';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
           <Player initialName="Player 1" playerSymbol="X"></Player>
           <Player initialName="Player 2" playerSymbol="O"></Player>
         </ol>
-        <GameBoard />
+        <GameBoard1 />
       </div>
     </main>
   )
